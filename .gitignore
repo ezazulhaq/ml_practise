@@ -1,2 +1,4 @@
 # Ignore tar zip file
 **.tgz
+
+**/__pycache__
