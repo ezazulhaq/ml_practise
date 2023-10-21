@@ -15,9 +15,9 @@ class Maze():
 
         # Validate start and goal
         if contents.count("A") != 1:
-            raise Exception("maze must have exactly one start point")
+            raise IndexError("maze must have exactly one start point")
         if contents.count("B") != 1:
-            raise Exception("maze must have exactly one goal")
+            raise IndexError("maze must have exactly one goal")
 
         # Determine height and width of maze
         contents = contents.splitlines()
@@ -98,7 +98,7 @@ class Maze():
 
             # If nothing left in frontier, then no path
             if frontier.empty():
-                raise Exception("no solution")
+                raise IndexError("no solution")
 
             # Choose a node from the frontier
             node = frontier.remove()
