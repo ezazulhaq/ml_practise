@@ -6,3 +6,4 @@ scipy
 scikit-learn
 google.generativeai
 tensorflow
+tensorflow_probability
