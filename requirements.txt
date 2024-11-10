@@ -8,3 +8,6 @@ scikit-learn
 google.generativeai
 tensorflow
 tensorflow_probability
+datasets
+psycopg2-binary
+huggingface_hub
