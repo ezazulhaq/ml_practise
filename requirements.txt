@@ -11,3 +11,10 @@ tensorflow_probability
 datasets
 psycopg2-binary
 huggingface_hub
+
+transformers
+evaluate
+accelerate
+sacrebleu
+rouge_score
+py7zr
